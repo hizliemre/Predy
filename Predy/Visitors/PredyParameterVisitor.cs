@@ -6,7 +6,7 @@ using Predy.Expressions;
 
 namespace Predy.Visitors
 {
-	public class PredyParameterVisitor: ExpressionVisitor
+	public class PredyParameterVisitor : ExpressionVisitor
 	{
 		private readonly List<ParameterExpression> _parameters = new List<ParameterExpression>();
 

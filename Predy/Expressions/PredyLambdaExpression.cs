@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 namespace Predy.Expressions
 {
 	[JsonConverter(typeof(PredyLambdaJsonConverter))]
-	public class PredyLambdaExpression: IPredyExpression
+	public class PredyLambdaExpression : IPredyExpression
 	{
 		public PredyLambdaExpression()
 		{

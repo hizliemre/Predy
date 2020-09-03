@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 namespace Predy.Expressions
 {
 	[JsonConverter(typeof(PredyBinaryJsonConverter))]
-	public class PredyBinaryExpression: IPredyExpression
+	public class PredyBinaryExpression : IPredyExpression
 	{
 		public IPredyExpression Left { get; set; }
 		public IPredyExpression Right { get; set; }

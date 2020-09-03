@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 namespace Predy.Expressions
 {
 	[JsonConverter(typeof(PredyMethodCallJsonConverter))]
-	public class PredyMethodCallExpression: IPredyExpression
+	public class PredyMethodCallExpression : IPredyExpression
 	{
 		public PredyMethodCallExpression()
 		{

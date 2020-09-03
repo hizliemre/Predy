@@ -17,7 +17,7 @@ namespace Predy
 		Unary
 	}
 
-	public class PredyJsonConverter: JsonConverter<IPredyExpression>
+	public class PredyJsonConverter : JsonConverter<IPredyExpression>
 	{
 		public override void WriteJson(JsonWriter writer, IPredyExpression value, JsonSerializer serializer)
 		{
@@ -127,7 +127,7 @@ namespace Predy
 		}
 	}
 
-	public class PredyLambdaJsonConverter: JsonConverter<PredyLambdaExpression>
+	public class PredyLambdaJsonConverter : JsonConverter<PredyLambdaExpression>
 	{
 		public override void WriteJson(JsonWriter writer, PredyLambdaExpression value, JsonSerializer serializer)
 		{
@@ -158,7 +158,7 @@ namespace Predy
 		}
 	}
 
-	public class PredyBinaryJsonConverter: JsonConverter<PredyBinaryExpression>
+	public class PredyBinaryJsonConverter : JsonConverter<PredyBinaryExpression>
 	{
 		public override void WriteJson(JsonWriter writer, PredyBinaryExpression value, JsonSerializer serializer)
 		{
@@ -183,7 +183,7 @@ namespace Predy
 		}
 	}
 
-	public class PredyMethodCallJsonConverter: JsonConverter<PredyMethodCallExpression>
+	public class PredyMethodCallJsonConverter : JsonConverter<PredyMethodCallExpression>
 	{
 		public override void WriteJson(JsonWriter writer, PredyMethodCallExpression value, JsonSerializer serializer)
 		{
@@ -215,7 +215,7 @@ namespace Predy
 		}
 	}
 
-	public class PredyMemberJsonConverter: JsonConverter<PredyMemberExpression>
+	public class PredyMemberJsonConverter : JsonConverter<PredyMemberExpression>
 	{
 		public override void WriteJson(JsonWriter writer, PredyMemberExpression value, JsonSerializer serializer)
 		{
@@ -239,7 +239,7 @@ namespace Predy
 		}
 	}
 
-	public class PredyConstantJsonConverter: JsonConverter<PredyConstantExpression>
+	public class PredyConstantJsonConverter : JsonConverter<PredyConstantExpression>
 	{
 		public override void WriteJson(JsonWriter writer, PredyConstantExpression value, JsonSerializer serializer)
 		{
@@ -265,7 +265,7 @@ namespace Predy
 		}
 	}
 
-	public class PredyUnaryJsonConverter: JsonConverter<PredyUnaryExpression>
+	public class PredyUnaryJsonConverter : JsonConverter<PredyUnaryExpression>
 	{
 		public override void WriteJson(JsonWriter writer, PredyUnaryExpression value, JsonSerializer serializer)
 		{
@@ -288,7 +288,7 @@ namespace Predy
 		}
 	}
 
-	public class PredyParameterJsonConverter: JsonConverter<PredyParameterExpression>
+	public class PredyParameterJsonConverter : JsonConverter<PredyParameterExpression>
 	{
 		public override void WriteJson(JsonWriter writer, PredyParameterExpression value, JsonSerializer serializer)
 		{
