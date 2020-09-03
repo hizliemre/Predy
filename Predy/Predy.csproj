@@ -2,6 +2,19 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Title>Predy</Title>
+        <Product>Predy</Product>
+        <Description>Predy is a simple lambda expression serializer for predicates</Description>
+        <PackageTags>json,serialize,lambda,expression</PackageTags>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+        <PackageVersion>1.0.0</PackageVersion>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>Emre Hızlı</Authors>
+        <PackageProjectUrl>https://github.com/hizliemre/predy</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/hizliemre/Predy/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/hizliemre/predy</RepositoryUrl>
+        <RootNamespace>Predy</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
